@@ -5,7 +5,7 @@ on:
       - feature/*
 jobs:
   build-feature:
-    runs-on: ubuntu-lastest
+    runs-on: windows-lastest
     steps:
       - uses: actions/checkout@v3
       - name: pull and checkout from git repository
@@ -25,5 +25,5 @@ jobs:
             echo "run test"
       - name: Build Angular app
         run: |
-          ng build --prod
+          ng build
           echo "build angular app"
