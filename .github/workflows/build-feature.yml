@@ -22,7 +22,7 @@ jobs:
       - name: Run Angular tests
         run: |
             ng test --watch=false
-            echo "run test"
+            echo "run test en la app"
       - name: Build Angular app
         run: |
           ng build --prod
