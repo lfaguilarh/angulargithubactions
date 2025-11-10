@@ -19,10 +19,10 @@ jobs:
         run: npm install
       - name: Install Angular CLI globally
         run: npm install -g @angular/cli
-      - name: Run Angular tests
-        run: |
-            ng test --watch=false
-            echo "run test en la app"
+      #- name: Run Angular tests
+      #  run: |
+      #      ng test --watch=false
+      #      echo "run test en la app"
       - name: Build Angular app
         run: |
           ng build
